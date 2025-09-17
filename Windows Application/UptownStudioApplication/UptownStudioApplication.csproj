@@ -1,0 +1,459 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{30FB1B41-0970-4EF7-9B80-4B799AF8F378}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>UptownStudioApplication</RootNamespace>
+    <AssemblyName>UptownStudioApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.140.340.80\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=14.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>packages\Microsoft.SqlServer.Types.14.0.314.76\lib\net40\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Backup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Backup.Designer.cs">
+      <DependentUpon>Backup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerReport.Designer.cs">
+      <DependentUpon>CustomerReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customers.Designer.cs">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmployeeRegistration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmployeeRegistration.Designer.cs">
+      <DependentUpon>EmployeeRegistration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Employees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Employees.Designer.cs">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ForgotPassword.Designer.cs">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inventory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inventory.Designer.cs">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddSale.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddSale.Designer.cs">
+      <DependentUpon>AddSale.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OrderConfirmation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OrderConfirmation.Designer.cs">
+      <DependentUpon>OrderConfirmation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SalesHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesHistory.Designer.cs">
+      <DependentUpon>SalesHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SalesReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SalesReport.Designer.cs">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SqlServerTypes\Loader.cs" />
+    <EmbeddedResource Include="Backup.resx">
+      <DependentUpon>Backup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerReport.resx">
+      <DependentUpon>CustomerReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customers.resx">
+      <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmployeeRegistration.resx">
+      <DependentUpon>EmployeeRegistration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Employees.resx">
+      <DependentUpon>Employees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ForgotPassword.resx">
+      <DependentUpon>ForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Home.resx">
+      <DependentUpon>Home.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inventory.resx">
+      <DependentUpon>Inventory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddSale.resx">
+      <DependentUpon>AddSale.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrderConfirmation.resx">
+      <DependentUpon>OrderConfirmation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SalesHistory.resx">
+      <DependentUpon>SalesHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SalesReport.resx">
+      <DependentUpon>SalesReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UptownLogoII.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UptownLogoIV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UptownLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Home1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-order-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-customer-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-employee-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-setting-24.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inventory.png" />
+    <None Include="Resources\backupIcon.png" />
+    <None Include="Resources\Close.png" />
+    <None Include="Resources\Minimize.png" />
+    <None Include="Resources\Maximize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UptownLogoColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hoddie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golf Tshirt.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tshirt - CrewNeck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Golf Tshirt III.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tshit - V-Neck.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tshit - V-Neck1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beanie II.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beanie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cap II.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mug - Standard.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Standard Mug.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\330ml-Coffee-Mug-White.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mug - Standard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mug -Standard.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mug - Conical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mug - Travel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kindpng_6121624.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mug - Travel1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tumbler - Tall with Lid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tumbler - Tall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tumbler Wine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tumbler Wine1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tumbler - Wine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tumbler - Wine III.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tumbler Wine2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-sublimation-stemless-wine-tumbler.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Water Bottle.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Water Bottle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Keyring - Rectangular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Keyring - Square.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Keyring - Round.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addCustomer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addCustomer1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Sales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addShoppingCartColor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salesHistory.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\username.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\password.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tortoise-shell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addShoppingCartLarge1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salesHistoryLarge1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addCustomerLarger1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportsLarge1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reportsLarge2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customerReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salesReport.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="SqlServerTypes\readme.htm" />
+    <Content Include="SqlServerTypes\x64\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x64\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\msvcr120.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

@@ -1,0 +1,123 @@
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\bin\Debug\UptownStudioApplication.exe.config
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\bin\Debug\UptownStudioApplication.exe
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\bin\Debug\UptownStudioApplication.pdb
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.csproj.AssemblyReference.cache
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Customers.resources
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Dashboard.resources
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.EmployeeRegistration.resources
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Employees.resources
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.ForgotPassword.resources
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Home.resources
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Login.resources
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.AddSale.resources
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Properties.Resources.resources
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.csproj.GenerateResource.cache
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.csproj.CoreCompileInputs.cache
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.exe
+C:\GitHub\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.pdb
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\UptownStudioApplication.exe.config
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\UptownStudioApplication.exe
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\UptownStudioApplication.pdb
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.csproj.AssemblyReference.cache
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Backup.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Customers.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Dashboard.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.EmployeeRegistration.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Employees.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.ForgotPassword.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Home.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Inventory.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Login.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.AddSale.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.OrderConfirmation.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.Properties.Resources.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.SalesHistory.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.csproj.GenerateResource.cache
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.csproj.CoreCompileInputs.cache
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.exe
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.pdb
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\bin\Debug\UptownStudioApplication.exe.config
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\bin\Debug\UptownStudioApplication.exe
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\bin\Debug\UptownStudioApplication.pdb
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.csproj.AssemblyReference.cache
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.Backup.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.Customers.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.Dashboard.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.EmployeeRegistration.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.Employees.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.ForgotPassword.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.Home.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.Inventory.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.Login.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.AddSale.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.OrderConfirmation.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.Properties.Resources.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.Reports.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.SalesHistory.resources
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.csproj.GenerateResource.cache
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.csproj.CoreCompileInputs.cache
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.exe
+C:\Users\This Pc\Documents\Uptown2\UptownStudioApplication\obj\Debug\UptownStudioApplication.pdb
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.CustomerReport.resources
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownStudioApplication.SalesReport.resources
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\Microsoft.ReportViewer.Common.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\Microsoft.ReportViewer.Design.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\EnvDTE.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\stdole.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-HANS\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-HANT\Microsoft.ReportViewer.Common.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-HANS\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-HANT\Microsoft.ReportViewer.DataVisualization.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-HANS\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-HANT\Microsoft.ReportViewer.Design.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-HANS\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\bin\Debug\zh-HANT\Microsoft.ReportViewer.WinForms.resources.dll
+C:\CMPG223-Group16\UptownStudioApplication\obj\Debug\UptownSt.74B7B53E.Up2Date

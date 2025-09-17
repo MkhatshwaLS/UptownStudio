@@ -1,0 +1,7 @@
+SELECT [Order].OrderID, [Order].EmployeeID, [Order].CustomerID, [Order].Order_Total, [Order].Order_Status, [Order].Order_CreationDate, [Order].Order_CollectionDate, Inventory.Inventory_Name, Inventory.Inventory_Unit_Cost_Price, Ordered_Inventory.Unit_Selling_Price, 
+             Ordered_Inventory.Quantity_Sold, Customer.Cus_First_Name, Customer.Cus_Last_Name
+FROM   [Order] INNER JOIN
+             Ordered_Inventory ON [Order].OrderID = Ordered_Inventory.OrderID INNER JOIN
+             Inventory ON Ordered_Inventory.InventoryID = Inventory.InventoryID INNER JOIN
+             Customer ON [Order].CustomerID = Customer.CustomerID
+ORDER BY [Order].Order_CreationDate DESC

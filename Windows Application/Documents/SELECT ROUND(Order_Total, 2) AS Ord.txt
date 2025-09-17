@@ -1,0 +1,2 @@
+SELECT ROUND(Order_Total, 2) AS Order_Total_Rounded
+FROM Orders;

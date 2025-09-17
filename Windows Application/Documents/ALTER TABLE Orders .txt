@@ -1,0 +1,79 @@
+ALTER TABLE Orders 
+
+DROP CONSTRAINT FK_Orders_CustomerID; 
+
+  
+
+ALTER TABLE Orders 
+
+DROP CONSTRAINT FK_Orders_EmployeeID; 
+
+ 
+
+ALTER TABLE Ordered_Inventory 
+
+DROP CONSTRAINT FK_Ordered_Inventory_OrderID; 
+
+  
+
+ALTER TABLE Ordered_Inventory 
+
+DROP CONSTRAINT FK_Ordered_Inventory_InventoryID; 
+
+ 
+
+SELECT CONSTRAINT_NAME  
+
+FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS  
+
+WHERE TABLE_NAME = 'Orders' AND CONSTRAINT_TYPE = 'FOREIGN KEY'; 
+
+  
+
+SELECT CONSTRAINT_NAME  
+
+FROM INFORMATION_SCHEMA.TABLE_CONSTRAINTS  
+
+WHERE TABLE_NAME = 'Ordered_Inventory' AND CONSTRAINT_TYPE = 'FOREIGN KEY'; 
+
+ 
+
+ALTER TABLE Orders 
+
+ADD CONSTRAINT FK_Orders_CustomerID FOREIGN KEY (CustomerID) 
+
+REFERENCES Customer(CustomerID) 
+
+ON DELETE CASCADE;  -- Delete orders if the related customer is deleted 
+
+  
+
+ALTER TABLE Orders 
+
+ADD CONSTRAINT FK_Orders_EmployeeID FOREIGN KEY (EmployeeID) 
+
+REFERENCES Employee(EmployeeID) 
+
+ON DELETE RESTRICT;  -- Prevent deletion of employees if they are linked to any orders 
+
+  
+
+ALTER TABLE Ordered_Inventory 
+
+ADD CONSTRAINT FK_Ordered_Inventory_OrderID FOREIGN KEY (OrderID) 
+
+REFERENCES Orders(OrderID) 
+
+ON DELETE CASCADE;  -- Delete ordered inventory items if the related order is deleted 
+
+  
+
+ALTER TABLE Ordered_Inventory 
+
+ADD CONSTRAINT FK_Ordered_Inventory_InventoryID FOREIGN KEY (InventoryID) 
+
+REFERENCES Inventory(InventoryID) 
+
+ON DELETE RESTRICT;  -- Prevent deletion of inventory if it is linked to any order 
+
+ 

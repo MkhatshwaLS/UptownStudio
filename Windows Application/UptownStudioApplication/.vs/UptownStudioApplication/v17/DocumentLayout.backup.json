@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\CMPG223-Group16\\UptownStudioApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB1B41-0970-4EF7-9B80-4B799AF8F378}|UptownStudioApplication.csproj|C:\\CMPG223-Group16\\UptownStudioApplication\\addsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB1B41-0970-4EF7-9B80-4B799AF8F378}|UptownStudioApplication.csproj|solutionrelative:addsale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB1B41-0970-4EF7-9B80-4B799AF8F378}|UptownStudioApplication.csproj|C:\\CMPG223-Group16\\UptownStudioApplication\\saleshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30FB1B41-0970-4EF7-9B80-4B799AF8F378}|UptownStudioApplication.csproj|solutionrelative:saleshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30FB1B41-0970-4EF7-9B80-4B799AF8F378}|UptownStudioApplication.csproj|C:\\CMPG223-Group16\\UptownStudioApplication\\saleshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{30FB1B41-0970-4EF7-9B80-4B799AF8F378}|UptownStudioApplication.csproj|solutionrelative:saleshistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddSale.cs",
+              "DocumentMoniker": "C:\\CMPG223-Group16\\UptownStudioApplication\\AddSale.cs",
+              "RelativeDocumentMoniker": "AddSale.cs",
+              "ToolTip": "C:\\CMPG223-Group16\\UptownStudioApplication\\AddSale.cs",
+              "RelativeToolTip": "AddSale.cs",
+              "ViewState": "AgIAACYCAAAAAAAAAAAiwEMCAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T15:26:10.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SalesHistory.cs",
+              "DocumentMoniker": "C:\\CMPG223-Group16\\UptownStudioApplication\\SalesHistory.cs",
+              "RelativeDocumentMoniker": "SalesHistory.cs",
+              "ToolTip": "C:\\CMPG223-Group16\\UptownStudioApplication\\SalesHistory.cs",
+              "RelativeToolTip": "SalesHistory.cs",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAcwHUBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T10:28:51.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SalesHistory.cs [Design]",
+              "DocumentMoniker": "C:\\CMPG223-Group16\\UptownStudioApplication\\SalesHistory.cs",
+              "RelativeDocumentMoniker": "SalesHistory.cs",
+              "ToolTip": "C:\\CMPG223-Group16\\UptownStudioApplication\\SalesHistory.cs [Design]",
+              "RelativeToolTip": "SalesHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-08T10:53:05.835Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

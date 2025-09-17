@@ -1,0 +1,72 @@
+
+
+
+CREATE TABLE [dbo].[Employee] (
+    [EmployeeID]    INT          IDENTITY (1, 1) NOT NULL,
+    [Emp_First_Name]      VARCHAR (30) NULL,
+    [Emp_Last_Name]     VARCHAR (30) NULL,
+    [Emp_Role]     VARCHAR (30) NULL,
+    [Emp_Email] VARCHAR(30)          NULL,
+    [Emp_Phone_No]     VARCHAR (10) NULL,
+    [Emp_UserName]  VARCHAR (20) NULL,
+    [Emp_Password]  VARCHAR (15) NULL,
+    PRIMARY KEY CLUSTERED ([EmployeeID] ASC)
+);
+
+CREATE TABLE [dbo].[Customer] (
+    [CustomerID]    INT          IDENTITY (1, 1) NOT NULL,
+    [Cus_First_Name]     VARCHAR (30) NULL,
+    [Cus_Last_Name]     VARCHAR (30) NULL,
+    [Cus_Email]  VARCHAR (30) NULL,
+    [Cus_Phone_No] VARCHAR(10)          NULL,
+    [Cus_Street_Address]     VARCHAR (30) NULL,
+    [Cus_Suburb] VARCHAR(30) NULL, 
+    [Cus_Town] VARCHAR(30) NULL, 
+    [Cus_Province] VARCHAR(20) NULL, 
+    [Cus_Postal_Code] VARCHAR(4) NULL, 
+    PRIMARY KEY CLUSTERED ([CustomerID] ASC)
+);
+
+CREATE TABLE [dbo].[Inventory] (
+    [InventoryID]           INT          IDENTITY (1, 1) NOT NULL,
+    [Inventory_Name]        VARCHAR (30) NULL,
+    [Inventory_Description] VARCHAR (50) NULL,
+    [Inventory_Unit_Cost_Price]    MONEY NULL,
+    [Quantity_in_Stock]    INT NULL,
+    PRIMARY KEY CLUSTERED ([InventoryID] ASC)
+);
+
+CREATE TABLE [dbo].[Order] (
+    [OrderID]              INT  IDENTITY (1, 1) NOT NULL,
+	[EmployeeID]		   INT  NULL,
+    [CustomerID]           INT  NULL,
+	[Order_Total]		   MONEY NULL,
+	[Order_Status]         VARCHAR(20)  NULL,
+    [Order_CreationDate]   DATE NULL,
+    [Order_CollectionDate] DATE NULL,
+    PRIMARY KEY CLUSTERED ([OrderID] ASC),
+    FOREIGN KEY ([CustomerID]) REFERENCES [dbo].[Customer] ([CustomerID]),
+	FOREIGN KEY ([EmployeeID]) REFERENCES [dbo].[Employee] ([EmployeeID])
+);
+
+CREATE TABLE [dbo].[Ordered_Inventory] (
+    [OrderID]     INT   NOT NULL,
+    [InventoryID] INT   NOT NULL,
+    [Unit_Selling_Price]    MONEY   NULL,
+    [Quantity_Sold]  INT NULL,
+    PRIMARY KEY CLUSTERED ([OrderID] ASC, [InventoryID] ASC),
+    FOREIGN KEY ([OrderID]) REFERENCES [dbo].[Order] ([OrderID]),
+    FOREIGN KEY ([InventoryID]) REFERENCES [dbo].[Inventory] ([InventoryID])
+);
+
+CREATE TABLE [dbo].[Transaction] (
+    [EmployeeID]      INT          NOT NULL,
+    [CustomerID]      INT          NOT NULL,
+    [Transact_Date]   DATE         NULL,
+    [Transact_Type]   VARCHAR (30) NULL,
+    [Transact_Amount] MONEY        NULL,
+    PRIMARY KEY CLUSTERED ([EmployeeID] ASC, [CustomerID] ASC),
+    FOREIGN KEY ([CustomerID]) REFERENCES [dbo].[Customer] ([CustomerID]),
+    FOREIGN KEY ([EmployeeID]) REFERENCES [dbo].[Employee] ([EmployeeID])
+);
+
